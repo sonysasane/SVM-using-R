@@ -27,5 +27,5 @@ y_pred <- predict(classifier,newdata = test_set[-3])
 
 # confucion matrix
 cm <- table(test_set[,3], y_pred)
-
+#
 
